@@ -1,0 +1,7 @@
+.bg {
+  background-color: black;
+}
+body {
+  font-family: var(--bs-font-sans-serif);
+  font-weight: bolder;
+}

@@ -1,0 +1,10 @@
+.alerts {
+  font-size: small;
+  margin-top: 15px;
+}
+.title {
+  color: darkgray;
+}
+.inputs {
+  border: solid, 3px, red;
+}
