@@ -1,16 +1,16 @@
-import React from "react";
-import { Container, Row, Col, Nav, Button } from "react-bootstrap";
-import "../Footer/MyFooter.css";
+import React from 'react';
+import { Row, Col, Nav, Button } from 'react-bootstrap';
+import '../Footer/MyFooter.css';
 
-import { FaFacebook } from "react-icons/fa";
-import { FiInstagram } from "react-icons/fi";
-import { ImYoutube2 } from "react-icons/im";
-import { GiHummingbird } from "react-icons/gi";
+import { FaFacebook } from 'react-icons/fa';
+import { FiInstagram } from 'react-icons/fi';
+import { ImYoutube2 } from 'react-icons/im';
+import { GiHummingbird } from 'react-icons/gi';
 
 class MyFooter extends React.Component {
   render() {
     return (
-      <Row className="mt-5 movieRow" style={{ background: "black" }}>
+      <Row className="mt-5 movieRow" style={{ background: 'black' }}>
         <Col>
           <Row className="justify-content-center">
             <FaFacebook className="icons" />

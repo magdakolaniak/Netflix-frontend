@@ -43,11 +43,11 @@ class LoadMovies extends React.Component {
     }
   };
 
-  handleKeyPress = (event) => {
-    if (event.key === 'Enter') {
-      this.setState({ query: event.target.value });
-    }
-  };
+  // handleKeyPress = (event) => {
+  //   if (event.key === 'Enter') {
+  //     this.setState({ query: event.target.value });
+  //   }
+  // };
 
   componentDidMount = async () => {
     this.setState({
@@ -88,7 +88,7 @@ class LoadMovies extends React.Component {
         <Row id="movieRow" className="flex-row flex-nowrap scroll-container">
           {this.state.movies &&
             this.state.movies.map((movie) => (
-              <Col>
+              <Col key={movie.Poster}>
                 <Card className="h-100 text-center">
                   <Card.Img
                     variant="cover"

@@ -118,7 +118,7 @@ class Registration extends Component {
                           })
                         }
                         min="1910"
-                        maxlength="4"
+                        maxLength="4"
                       />
                       {this.state.year &&
                       this.state.year.toString() < '1910' ? (
@@ -126,7 +126,7 @@ class Registration extends Component {
                           Provide valid Year
                         </Alert>
                       ) : (
-                        <alert></alert>
+                        <p></p>
                       )}
                     </Form.Group>
                   </Form.Row>
@@ -176,7 +176,7 @@ class Registration extends Component {
                             postalCode: e.currentTarget.value,
                           })
                         }
-                        maxlength="5"
+                        maxLength="5"
                       />
                       {this.state.postalCode &&
                         this.state.postalCode.length < 5 && (
