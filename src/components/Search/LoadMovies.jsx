@@ -25,7 +25,7 @@ class LoadMovies extends React.Component {
   fetchMovies = async () => {
     try {
       const response = await fetch(
-        `http://www.omdbapi.com/?apikey=9dd1231b&s=${this.state.query}`
+        `https://www.omdbapi.com/?apikey=9dd1231b&s=${this.state.query}`
       );
       if (response.ok) {
         let data = await response.json();
